@@ -1,0 +1,10 @@
+<div class="w-100 text-center">
+    <h1>Random</h1>
+</div>
+<div class="col-md-12">
+    <div class="col-md-8 container d-flex flex-wrap justify-content-between">
+        {{#each randomNumbers}}
+        <p class="border border-danger mr-2 p-2"> {{@key}}: {{this}} </p>
+        {{/each}}
+    </div>
+</div>
